@@ -33,16 +33,6 @@ function Hero() {
         >
           Mí blog
         </a>
-        <div className="mt-6 flex justify-center md:justify-start">
-          <a
-            href="https://link.mercadopago.com.ar/cerro5"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-3 bg-pink-500 text-white rounded-full font-semibold shadow-lg hover:bg-pink-600 hover:shadow-xl transition duration-300"
-          >
-            🖤 Donar con Mercado Pago
-          </a>
-        </div>
       </motion.div>
 
       <motion.div
