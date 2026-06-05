@@ -1,69 +1,94 @@
-# React + TypeScript + Vite
+# 📸 Rocio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive photography portfolio built to showcase photographic work through an elegant and interactive user experience.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://rocio-website.vercel.app/
 
-## Expanding the ESLint configuration
+## 📖 About
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Rocio Website is a single-page portfolio application created for a photographer to professionally display her work online.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+The project focuses on visual presentation, smooth animations, responsive design, and intuitive navigation. Visitors can browse photo collections by category, explore featured content, and access social media profiles through a clean and modern interface.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## ✨ Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+* Responsive design for desktop, tablet, and mobile devices
+* Interactive photo gallery
+* Category-based filtering system
+* Smooth animations powered by Framer Motion
+* Instagram integration
+* Modern and minimalist UI
+* Single Page Application architecture
+* Fast performance with Vite
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Framer Motion
+
+### Additional Libraries
+
+* Lucide React
+* React Icons
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── About.tsx
+│   ├── BandasFavoritas.tsx
+│   ├── Footer.tsx
+│   ├── Gallery.tsx
+│   ├── Hero.tsx
+│   ├── Instagram.tsx
+│   └── Navbar.tsx
+├── App.tsx
+└── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🎯 Goals
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+This project was developed to:
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+* Build a professional online presence for a photographer
+* Practice responsive web design
+* Improve UI/UX implementation skills
+* Create reusable React components
+* Integrate modern frontend animation techniques
+
+## 💡 What I Learned
+
+During this project I strengthened my experience with:
+
+* Component-based architecture in React
+* TypeScript integration
+* Responsive layouts
+* Animation workflows using Framer Motion
+* Gallery filtering and state management
+* Deploying applications with Vercel
+
+## 🚀 Local Installation
+
+```bash
+git clone https://github.com/NahueSanz/rocio-website.git
+
+cd rocio-website
+
+npm install
+
+npm run dev
 ```
+
+## 👨‍💻 Author
+
+Nahuel Sanz
+
+Frontend Developer specializing in React, TypeScript, and modern web applications.
